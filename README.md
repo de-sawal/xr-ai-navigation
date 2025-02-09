@@ -207,23 +207,7 @@ This experiment is not a consumer app but an experimental tool for data collecti
 ---
 
 ## Data Logging and Retrieval
-
-The DataLogger script writes experiment data as JSON and CSV files in the folder:
-
-Application.persistentDataPath/ExperimentData
-
-On an Android-based XR device, this is typically located at:
-
-/storage/emulated/0/Android/data/[your-package-name]/files/ExperimentData
-
-To retrieve data:
-1. Connect your device via USB.
-2. Use adb to navigate to the directory.
-3. Copy the data files to your computer using a command like:
-
-adb pull /storage/emulated/0/Android/data/[your-package-name]/files/ExperimentData [destination-folder]
-
-This data includes session logs and trial CSV exports for later analysis.
+Offline. Errors in Auto-Logging.
 
 ---
 
