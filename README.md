@@ -102,27 +102,6 @@ Since this project targets XR experimentation, you’ll need to install and conf
 3. Under **Project Settings > XR Plugin Management**, enable the plugin for your target platform (for example, enable **Oculus** under Android if you’re deploying on a Quest device).
 4. (Optional) If you prefer using Unity’s XR Interaction Toolkit, install it via the Package Manager. Note that some scripts may need minor adjustments if you choose the XR Interaction Toolkit over the classic VR SDK.
 
-### Organizing Project Folders and Scripts
-
-For clarity and maintainability, create the following folder structure in your **Assets** directory:
-
-- **Assets/_Scripts/** – Place all provided scripts here:
-  - AIAssistant.cs
-  - DataLogger.cs
-  - ExperimentController.cs
-  - ExperimentUISetup.cs
-  - InteractionManager.cs
-  - NavigationStyle.cs
-  - ObjectPlacementManager.cs
-  - RoomCalibrationManager.cs
-
-- **Assets/_Prefabs/** – Store any prefabs (e.g., study objects, UI elements).
-- **Assets/_Scenes/** – Create and save your scene(s) here.
-- **Assets/_Materials/** – Save any custom materials (e.g., highlight material).
-- **Assets/_UI/** – Optional folder for custom UI assets.
-
-Copy the provided scripts into the `_Scripts` folder and let Unity compile them.
-
 ### Scene Setup and Manager Configuration
 
 1. **Create a New Scene**  
@@ -268,6 +247,14 @@ This data includes session logs and trial CSV exports for later analysis.
 ---
 
 ## Final Remarks
+
+For the Data Logging part, we conducted offline questionnaires to measure participants' satisfaction with the navigation options. We disregarded accuracy and time taken due to errors in auto-logging. However, our primary objective was to assess satisfaction and contentment levels after presenting the navigation system to the participants.  
+
+For objects in the study, we imported assets from:  
+**[Food Pack Free Demo](https://assetstore.unity.com/packages/3d/props/food/food-pack-free-demo-225294)**.  
+
+For the AI Assistant, we used:  
+**[Robot Sphere](https://assetstore.unity.com/packages/3d/characters/robots/robot-sphere-136226)**.
 
 This guide should help you get the XR AI Assistant Navigation experiment up and running, from cloning the GitHub repository to deploying the experiment on your XR device. If you have any questions or need further assistance, please refer to the project repository issues or contact the development team.
 
