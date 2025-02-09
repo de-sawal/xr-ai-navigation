@@ -2,8 +2,6 @@
 
 Welcome to the XR AI Assistant Navigation experiment! This document explains, in detail, how to set up the Unity project from scratch, integrate all the provided scripts, configure the scene, and deploy the experiment. This guide also covers GitHub repository setup and instructions for version control and collaboration. The goal is to help you deploy an XR app (used solely for experimental purposes) that demonstrates an AI assistant guiding participants through an immersive navigation task.
 
-> **Note:** Although the terminology “XR” is used throughout, many of the scripts refer to VR-style inputs (e.g., OVRInput). This project is intended for extended reality experimentation and can be adapted for various XR devices.
-
 ---
 
 ## Table of Contents
@@ -44,7 +42,7 @@ This guide walks you through setting up a new Unity project with these scripts, 
 Before you begin, ensure you have:
 
 - A recent version of **Unity Hub** installed.
-- Unity Editor (preferably an LTS version, e.g., 2021 or 2022 LTS).
+- Unity Editor (preferably an LTS version, e.g., 2022 LTS or later).
 - XR/VR device support (for example, using Oculus Integration for Quest or another XR device).  
 - Android Build Support installed (if deploying to a standalone XR headset).
 - A GitHub account and Git installed on your development machine.
@@ -62,7 +60,7 @@ This project is hosted on GitHub. Follow these steps to clone and set up the rep
 ```
 2. **Navigate to the Project Folder**
 ```  
-   cd XR-AI-Assistant-Navigation
+   cd xr-ai-navigation
 ```
 
 4. **Set Up the Repository Locally**  
@@ -91,7 +89,7 @@ This project is hosted on GitHub. Follow these steps to clone and set up the rep
 1. Open **Unity Hub**.
 2. Click on **New Project**.
 3. Select the **3D (or 3D Core)** template.
-4. Name your project (e.g., "XR_AI_Assistant_Navigation").
+4. Name your project (e.g., "xr-ai-navigation").
 5. Choose a project location.
 6. Click **Create** and wait for the project to load.
 
